@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="index.css">
+<div class="header">
+<head><div class="panel"><h1><a href="https://en.wikipedia.org/wiki/Asheville,_North_Carolina">Asheville</a></h1>  <a href="https://www.ashevillenc.gov/">City Website</a><a href="https://www.unca.edu/">UNCA Website</a></div></head>
+</div>
+
+<body>
+<h2>Introduction</h2>
+<figure>
+<img id="ashevillepic" width="600" height="400" class="image"></img>
+<figcaption id="caption">Zeis Hall | Photo Credit: Me :)</figcaption>
+</figure>
+<div class="p1">
+<p1>
+    <b>Asheville</b> is my favorite city. Ever since I was a kid I knew I loved the mountains.
+    When I was growing up my grandparents lived in Blowing Rock, a town near Boone in the mountains of North Carolina.
+    It's an absolutely beautiful place. <b>Asheville</b> has found its place as my favorite city for a couple of key reasons:
+</p1>
+<ol>
+</div>
+<li>
+<h2>UNCA Campus</h2>
+<figure>
+<img src="images/IMG_7157.JPG" width="600" height="400" class="image" alt="A picture of UNCA Zeis Hall."></img>
+<figcaption>Zeis Hall | Photo Credit: Me :)</figcaption>
+</figure>
+<div class="p2">
+<p2>
+    I go to school at <b>UNC Asheville.</b> It's campus is awesome, it's one of my favorite places in <b>Asheville</b>.
+    It has everything you could possibly want out of a college campus. Everything you need to get to is close
+    together, and yet campus is vast. Genuinely there are some better sights on this college campus than <i>some dedicated hiking trails.</i>
+    The Observatory is <i>absolutely</i> stunning.
+</p2>
+</div>
+<figure>
+<img src="images/obsparkinglot.png" width="600" height="400" class="image" alt="A picture of the UNCA Observatory parking lot at Night."></img>
+<figcaption>UNCA Observatory Parking Lot | Photo Credit: Me :)</figcaption>
+</figure>
+</li>
+<li>
+<h2>The Blue Ridge Parkway</h2>
+<div class="p3">
+<p3>
+    The <b>Blue Ridge Parkway</b> is one of my favorite places on earth. I've been to a lot of beautiful places,
+    but the <b>Blue Ridge Parkway</b> is by far the prettiest of them. Time and time again I bring my cameras out, and come home
+    with pictures upon pictures of the beautiful scenery.
+</p3>
+</div>
+<figure>
+<img src="images/bluparkway1.png" width="600" height="400" class="image" alt="A picture of the Blue Ridge Parkway."></img>
+<figcaption>Blue Ridge Parkway | circa approx October 2025 | Photo Credit: Me :)</figcaption>
+</figure>
+</li>
+</ol>
+<h1>Conclusion</h1>
+<div class="p4">
+    <p4>
+        All in all, <b>Asheville</b> is:
+        <ul>
+            <li>Beautiful</li>
+            <li>Diverse</li>
+            <li>& Bright</li>
+        </ul>
+    </p4>
+</div>
+<h1>Population Statistics:</h1>
+<div class="p5">
+    <table>
+        <tr>
+            <th>Population</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>Homes with a Computer</td>
+            <td>92.8%</td>
+        </tr>
+         <tr>
+            <td>Persons under 5</td>
+            <td>4.1%</td>
+        </tr>
+         <tr>
+            <td>Persons 65 and over</td>
+            <td>20.1%</td>
+        </tr>
+    </table>
+</div>
+<h1>Thoughts?</h1>
+<form>
+  <label for="firstname">First name</label><br>
+  <input type="text" id="firstname" name="firstname"><br>
+  <label for="lname">Last name</label><br>
+  <input type="text" id="lastname" name="lastname"><br>
+  <label for="thoughts">Thoughts?</label><br>
+  <input type="text" id="thoughts" name="thoughts"><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+
+<script>
+    let citypic = document.getElementById('ashevillepic')
+    let caption = document.getElementById('caption')
+    let date = new Date()
+    let hour = date.getHours();
+    let ifDay = hour > 6 && hour < 20
+
+    if(ifDay){
+        citypic.src = "images/ashevilleday.jpg";
+        caption.innerHTML = "<a href='https://happytowander.com/asheville-nc-guide/'>Photo Credit</a> | Picture updates automatically upon page refresh";
+    }else{
+        citypic.src = "images/ashevillenight.jpg"
+        caption.innerHTML = "<a href='https://www.kadamsphoto.com/asheville-nights/'>Photo Credit</a> | Picture updates automatically upon page refresh";
+
+    }
+
+
+</script>

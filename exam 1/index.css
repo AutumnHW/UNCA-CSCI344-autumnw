@@ -1,0 +1,107 @@
+.header {
+    font-family:monospace;
+    font-size:large;
+    background: #4eb7ba;
+    background: linear-gradient(90deg,rgba(78, 183, 186, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(255, 255, 255, 1) 100%);
+
+}
+.image {
+    border:2px solid;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+
+
+}
+figcaption{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:35%;
+}
+body{
+    background-color:aquamarine;
+    padding:5vw;
+}
+.p1{
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    max-width: 75vw;
+    padding:1vw;
+    text-align:center;
+    border-color:#4eb7ba;
+    border-width:5px;
+    border-radius:5%;
+    border-style: inset;
+    width:50%;
+
+}
+.p2{
+    margin-left:auto;
+    margin-right:auto;
+    color:blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    max-width: 75vw;
+    padding:1vw;
+    text-align:center;
+    border-color:#4eb7ba;
+    border-width:5px;
+    border-radius:5%;
+    border-style: inset;
+    width:50%;
+}
+.p3{
+    margin-left:auto;
+    margin-right:auto;
+    color:purple;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    max-width: 75vw;
+    padding:1vw;
+    text-align:center;
+    border-color:#4eb7ba;
+    border-width:5px;
+    border-radius:5%;
+    border-style: inset;
+    width:50%;
+}
+.p4{
+    margin-left:auto;
+    margin-right:auto;
+    color:pink;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    max-width: 75vw;
+    padding:1vw;
+    text-align:center;
+    border-color:#4eb7ba;
+    border-width:5px;
+    border-radius:5%;
+    border-style: inset;
+    width:fit-content;
+}
+.p5{
+    margin-left:auto;
+    margin-right:auto;
+    color:pink;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    max-width: 75vw;
+    padding:1vw;
+    text-align:center;
+    border-color:#4eb7ba;
+    border-width:5px;
+    border-radius:5%;
+    border-style: inset;
+    width:fit-content;
+}
+head{
+    display:inline-block;
+}
+.panel {
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
