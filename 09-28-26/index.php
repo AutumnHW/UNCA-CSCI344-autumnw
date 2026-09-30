@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<h1>
 <?php 
-echo phpversion();
+echo "this is a test";
 ?>
+</h1>
 </body>
 </html>
