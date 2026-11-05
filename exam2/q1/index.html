@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form name="q1form" id="q1form">
+
+    <label for="temp">Temperature:</label><br>
+    <input type="number" id="temp" required>
+
+    <input name="units" type="radio" id="celsius" value="C" required>
+    <label for="celsius">°C</label>
+
+    <input name="units" type="radio" id="fahrenheit" value="F">
+    <label for="fahrenheit">°F</label>
+
+    <br>
+
+    <label>Is it raining outside?</label>
+
+    <input name="raining" id="rainingYes" type="radio" value="isRaining" required>
+    <label for="rainingYes">Yes</label>
+
+    <input name="raining" id="rainingNo" type="radio" value="notRaining">
+    <label for="rainingNo">No</label>
+
+    <br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+<div id="results"></div>
+
+<script src="convert.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Feedback Form</title>
+    <script src="validation.js"></script>
+</head>
+<body>
+
+    <h2 align="center">User Feedback Form</h2>
+
+    <form action="#" method="POST" onsubmit="return validateForm()">
+
+        <table border="1" cellpadding="8" cellspacing="0" align="center">
+
+            <tr>
+                <td><label for="salutation">Salutation:</label></td>
+                <td>
+                    <select id="salutation" name="salutation">
+                        <option value="">Select</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Dr.">Dr.</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" id="firstName" name="firstName"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" id="lastName" name="lastName"></td>
+            </tr>
+
+            <tr>
+                <td>Email Address:</td>
+                <td><input type="text" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="text" id="phone" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Subject:</td>
+                <td><input type="text" id="subject" name="subject"></td>
+            </tr>
+
+            <tr>
+                <td>Comments:</td>
+                <td>
+                    <textarea id="comments" name="comments"
+                              rows="6" cols="35"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>

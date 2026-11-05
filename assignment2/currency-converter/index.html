@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+</head>
+<body>
+
+    <h2 align="center">Currency Converter</h2>
+
+    <form id="currencyForm">
+
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+
+            <tr>
+                <td><label for="amount">Amount:</label></td>
+                <td>
+                    <input type="number" id="amount" name="amount"
+                           min="0" step="0.01" value="1" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="fromCurrency">Convert From:</label></td>
+                <td>
+                    <select id="fromCurrency" name="fromCurrency">
+                        <option value="USD">US Dollar (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="GBP">British Pound (GBP)</option>
+                        <option value="JPY">Japanese Yen (JPY)</option>
+                        <option value="CAD">Canadian Dollar (CAD)</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="toCurrency">Convert To:</label></td>
+                <td>
+                    <select id="toCurrency" name="toCurrency">
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="USD">US Dollar (USD)</option>
+                        <option value="GBP">British Pound (GBP)</option>
+                        <option value="JPY">Japanese Yen (JPY)</option>
+                        <option value="CAD">Canadian Dollar (CAD)</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Conversion Direction:</td>
+                <td>
+                    <input type="radio" name="direction"
+                           id="forward" value="forward" checked>
+                    <label for="forward">Forward</label>
+
+                    <input type="radio" name="direction"
+                           id="reverse" value="reverse">
+                    <label for="reverse">Reverse</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Convert">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Converted Amount:</td>
+                <td>
+                    <output id="result">Result will appear here</output>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>

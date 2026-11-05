@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+<movie>
+    <name>Late Night with the Devil</name>
+    <year>2023</year>
+    <language>English</language>
+    <cast><member>David Dastmalchian</member><member>Laura Gordon</member><member>Ian Bliss</member></cast>
+</movie>
+<movie>
+    <name>The Social Network</name>
+    <year>2010</year>
+    <language>English</language>
+    <cast><member>Jesse Eisenberg</member><member>Andrew Garfield</member><member>Justin Timberlake</member></cast>
+</movie>
+<movie>
+    <name>The Verdict</name>
+    <year>1982</year>
+    <language>English</language>
+    <cast><member>Paul Newman</member><member>Charlotte Rampling</member><member>Jack Warden</member></cast>
+</movie>
+</movies>
